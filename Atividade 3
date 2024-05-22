@@ -1,0 +1,43 @@
+package avformativa;
+
+import java.util.Scanner;
+
+public class Chooseyourside {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	Scanner ler = new Scanner(System.in);	
+	
+	double a,b,o,x;
+	
+	System.out.println("Informe o valor 1:");
+	a = ler.nextDouble();
+	
+	System.out.println("Informe o valor 2");
+	b = ler.nextDouble();
+	
+	System.out.println("Informe o valor da operação a ser utilizada:");
+	System.out.println("1)Soma");
+	System.out.println("2)Subtração");
+	System.out.println("3)Mutiplicação");
+	System.out.println("4+)Divisão");
+	System.out.println("===============");
+	o = ler.nextDouble();
+	
+	if (o==1) {
+		x = a+b;
+	}
+	else if (o==2) {
+		x = a-b;
+	}
+	else if (o==3) {
+		x = a*b;
+	}
+	else {
+		x = a/b;
+	}
+	System.out.println("O resultado é: " + x);
+
+	}
+
+}
