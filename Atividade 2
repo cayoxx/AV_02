@@ -1,0 +1,23 @@
+package avformativa;
+
+import java.util.Scanner;
+
+public class Minecraft {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	double a,x;
+	
+	Scanner ler = new Scanner(System.in);
+	
+	System.out.println("Informe o valor de um lado do quadrado (M): ");
+	a = ler.nextDouble();
+	
+	x = a*a;
+	
+	System.out.println("A área desse quadrado é " + x + "m.");
+
+	}
+
+}
